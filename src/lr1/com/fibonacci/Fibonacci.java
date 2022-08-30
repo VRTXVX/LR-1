@@ -21,9 +21,9 @@ public class Fibonacci
 
         while(kst-- > 0)
         {
-            root = Math.cbrt(nextNum - 1);
+            root = Math.cbrt(nextNum + 1);
 
-            if (root == (int)root && root > 0)
+            if (root == (int)root && root != 0)
             {
                 System.out.print(nextNum + " ");
                 flag = true;
